@@ -50,6 +50,5 @@ describe("Primitives", function () {
     it("should have correct values for bytes", async function () {
         expect(await primitives.a()).to.equal("0xb5");
         expect(await primitives.b()).to.equal("0x56");
-        primitives.somelog();
     });
 });
