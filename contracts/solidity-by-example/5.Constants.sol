@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
+// Constants are variables that cannot be modified.
+// Their value is hard coded and using constants can save gas cost.
 contract Constants {
     // coding convention to uppercase constant variables
     address public constant MY_ADDRESS =
